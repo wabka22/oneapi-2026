@@ -66,5 +66,5 @@ std::vector<float> JacobiDevONEAPI(
     sycl::free(d_x_curr, q);
     sycl::free(d_x_next, q);
 
-    return x_host;
+    return x_host; //
 }
